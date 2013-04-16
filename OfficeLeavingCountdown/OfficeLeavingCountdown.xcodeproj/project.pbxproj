@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B979787617171C370060952B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B979787517171C370060952B /* UIKit.framework */; };
+		B979787817171C370060952B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B979787717171C370060952B /* Foundation.framework */; };
+		B979787A17171C370060952B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B979787917171C370060952B /* CoreGraphics.framework */; };
+		B979788017171C370060952B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B979787E17171C370060952B /* InfoPlist.strings */; };
+		B979788217171C370060952B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B979788117171C370060952B /* main.m */; };
+		B979788617171C370060952B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B979788517171C370060952B /* AppDelegate.m */; };
+		B979788817171C370060952B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B979788717171C370060952B /* Default.png */; };
+		B979788A17171C370060952B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B979788917171C370060952B /* Default@2x.png */; };
+		B979788C17171C370060952B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B979788B17171C370060952B /* Default-568h@2x.png */; };
+		B979788F17171C370060952B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B979788E17171C370060952B /* ViewController.m */; };
+		B979789217171C370060952B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B979789017171C370060952B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B979787117171C360060952B /* OfficeLeavingCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeLeavingCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B979787517171C370060952B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B979787717171C370060952B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B979787917171C370060952B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B979787D17171C370060952B /* OfficeLeavingCountdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfficeLeavingCountdown-Info.plist"; sourceTree = "<group>"; };
+		B979787F17171C370060952B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B979788117171C370060952B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B979788317171C370060952B /* OfficeLeavingCountdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfficeLeavingCountdown-Prefix.pch"; sourceTree = "<group>"; };
+		B979788417171C370060952B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B979788517171C370060952B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B979788717171C370060952B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B979788917171C370060952B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B979788B17171C370060952B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B979788D17171C370060952B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B979788E17171C370060952B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B979789117171C370060952B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B979786E17171C360060952B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B979787617171C370060952B /* UIKit.framework in Frameworks */,
+				B979787817171C370060952B /* Foundation.framework in Frameworks */,
+				B979787A17171C370060952B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B979786617171C360060952B = {
+			isa = PBXGroup;
+			children = (
+				B979787B17171C370060952B /* OfficeLeavingCountdown */,
+				B979787417171C370060952B /* Frameworks */,
+				B979787217171C360060952B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B979787217171C360060952B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B979787117171C360060952B /* OfficeLeavingCountdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B979787417171C370060952B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B979787517171C370060952B /* UIKit.framework */,
+				B979787717171C370060952B /* Foundation.framework */,
+				B979787917171C370060952B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B979787B17171C370060952B /* OfficeLeavingCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				B979788417171C370060952B /* AppDelegate.h */,
+				B979788517171C370060952B /* AppDelegate.m */,
+				B979788D17171C370060952B /* ViewController.h */,
+				B979788E17171C370060952B /* ViewController.m */,
+				B979789017171C370060952B /* ViewController.xib */,
+				B979787C17171C370060952B /* Supporting Files */,
+			);
+			path = OfficeLeavingCountdown;
+			sourceTree = "<group>";
+		};
+		B979787C17171C370060952B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B979787D17171C370060952B /* OfficeLeavingCountdown-Info.plist */,
+				B979787E17171C370060952B /* InfoPlist.strings */,
+				B979788117171C370060952B /* main.m */,
+				B979788317171C370060952B /* OfficeLeavingCountdown-Prefix.pch */,
+				B979788717171C370060952B /* Default.png */,
+				B979788917171C370060952B /* Default@2x.png */,
+				B979788B17171C370060952B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B979787017171C360060952B /* OfficeLeavingCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B979789517171C370060952B /* Build configuration list for PBXNativeTarget "OfficeLeavingCountdown" */;
+			buildPhases = (
+				B979786D17171C360060952B /* Sources */,
+				B979786E17171C360060952B /* Frameworks */,
+				B979786F17171C360060952B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfficeLeavingCountdown;
+			productName = OfficeLeavingCountdown;
+			productReference = B979787117171C360060952B /* OfficeLeavingCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B979786817171C360060952B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vu Tiet";
+			};
+			buildConfigurationList = B979786B17171C360060952B /* Build configuration list for PBXProject "OfficeLeavingCountdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B979786617171C360060952B;
+			productRefGroup = B979787217171C360060952B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B979787017171C360060952B /* OfficeLeavingCountdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B979786F17171C360060952B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B979788017171C370060952B /* InfoPlist.strings in Resources */,
+				B979788817171C370060952B /* Default.png in Resources */,
+				B979788A17171C370060952B /* Default@2x.png in Resources */,
+				B979788C17171C370060952B /* Default-568h@2x.png in Resources */,
+				B979789217171C370060952B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B979786D17171C360060952B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B979788217171C370060952B /* main.m in Sources */,
+				B979788617171C370060952B /* AppDelegate.m in Sources */,
+				B979788F17171C370060952B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B979787E17171C370060952B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B979787F17171C370060952B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B979789017171C370060952B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B979789117171C370060952B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B979789317171C370060952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B979789417171C370060952B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B979789617171C370060952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfficeLeavingCountdown/OfficeLeavingCountdown-Prefix.pch";
+				INFOPLIST_FILE = "OfficeLeavingCountdown/OfficeLeavingCountdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B979789717171C370060952B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfficeLeavingCountdown/OfficeLeavingCountdown-Prefix.pch";
+				INFOPLIST_FILE = "OfficeLeavingCountdown/OfficeLeavingCountdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B979786B17171C360060952B /* Build configuration list for PBXProject "OfficeLeavingCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B979789317171C370060952B /* Debug */,
+				B979789417171C370060952B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B979789517171C370060952B /* Build configuration list for PBXNativeTarget "OfficeLeavingCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B979789617171C370060952B /* Debug */,
+				B979789717171C370060952B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B979786817171C360060952B /* Project object */;
+}
